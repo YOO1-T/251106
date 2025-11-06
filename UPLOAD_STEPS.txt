@@ -1,0 +1,74 @@
+================================
+🚀 GitHub 업로드 간단 가이드
+================================
+
+저장소: https://github.com/YOO1-T/251106.git
+계정: YOO-1T
+
+================================
+가장 쉬운 방법 (GitHub Desktop)
+================================
+
+1. GitHub Desktop 다운로드 및 설치
+   → https://desktop.github.com
+
+2. GitHub 계정으로 로그인 (YOO-1T)
+
+3. File → Add Local Repository
+   → C:\Users\ADMIN\Desktop\test 선택
+   → "create a repository" 클릭
+
+4. Repository → Repository settings
+   → Remote: https://github.com/YOO1-T/251106.git
+   → Save
+
+5. 커밋 메시지: "Initial commit: 구구단 산성비 게임"
+   → Commit to main 클릭
+
+6. Push origin 클릭
+
+✅ 완료!
+
+================================
+명령줄 방법 (Git 설치 필요)
+================================
+
+# Git 설치 먼저!
+https://git-scm.com/download/win
+
+# 프로젝트 폴더로 이동
+cd C:\Users\ADMIN\Desktop\test
+
+# Git 초기화 및 업로드
+git init
+git remote add origin https://github.com/YOO1-T/251106.git
+git add .
+git commit -m "Initial commit: 구구단 산성비 게임"
+git branch -M main
+git push -u origin main
+
+✅ 완료!
+
+================================
+배포 URL (GitHub Pages)
+================================
+
+업로드 후 배포하면:
+https://yoo1-t.github.io/251106/
+
+================================
+더 쉬운 배포 (Vercel)
+================================
+
+1. https://vercel.com 방문
+2. GitHub로 로그인
+3. Import 251106 저장소
+4. Deploy 클릭
+
+→ https://251106.vercel.app 자동 생성
+
+================================
+상세 가이드: UPLOAD_TO_GITHUB.md
+================================
+
+
