@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
-import { GameState, Droplet, Difficulty, GameMode } from '../types';
-import { GAME_CONFIG, ANIMATION_CONFIG } from '../constants';
+import { GameState, Difficulty, GameMode } from '../types';
+import { GAME_CONFIG } from '../constants';
 import {
   createDroplet,
   updateDroplets,

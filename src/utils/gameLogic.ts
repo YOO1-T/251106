@@ -65,7 +65,7 @@ export const filterDroppedDroplets = (droplets: Droplet[]): { remaining: Droplet
 export const calculateScore = (
   baseScore: number,
   combo: number,
-  timeElapsed: number,
+  _timeElapsed: number,
   dropletCreatedAt: number
 ): number => {
   let score = baseScore;

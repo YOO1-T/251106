@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Statistics, Settings, GameMode, Difficulty } from './types';
 import { loadStatistics, saveStatistics, loadSettings, saveSettings } from './utils/storage';
 import { useGameState } from './hooks/useGameState';
